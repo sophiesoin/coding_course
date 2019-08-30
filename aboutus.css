@@ -1,0 +1,39 @@
+.myButton {
+	background-color:#ffffff;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:13px;
+	padding:10px 29px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#000000;
+  border:#000000;
+  color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
